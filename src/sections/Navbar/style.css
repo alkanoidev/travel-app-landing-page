@@ -1,0 +1,26 @@
+nav {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+nav div #login {
+  margin-right: 20px;
+}
+nav div h3 {
+  font-size: 16px;
+  color: var(--secondary-text);
+  transition: var(--transition);
+  margin-right: 40px;
+}
+nav div h3:hover {
+  cursor: pointer;
+  color: #202336;
+}
+#logo:hover {
+  cursor: pointer;
+}
