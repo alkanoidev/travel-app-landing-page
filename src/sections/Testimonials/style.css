@@ -1,0 +1,125 @@
+.Testimonials {
+  width: 100%;
+  padding: 120px 0px;
+  scroll-snap-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.Testimonials .left {
+  width: 30%;
+}
+.Testimonials .left h1 {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 140px;
+}
+.Testimonials .left .stars {
+  display: flex;
+  color: #ffbb0c;
+  font-size: 28px;
+  gap: 10px;
+}
+.Testimonials .left .text {
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+.Testimonials .left .name {
+  font-size: 22px;
+  font-weight: bold;
+}
+.Testimonials .left .idkk {
+  font-size: 18px;
+  color: var(--secondary-text);
+}
+
+.TestimonialPicture {
+  border-radius: 15px;
+}
+.TestimonialPicture .picture {
+  border-radius: 15px;
+}
+
+.TestimonialPicture .controls {
+  display: flex;
+  padding: 10px 20px;
+  width: 30%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: var(--background);
+  border-radius: 15px 0px 0px 0px;
+  position: relative;
+  bottom: 40px;
+  left: 70%;
+  gap: 10px;
+}
+.TestimonialPicture .controls button {
+  border: 2px solid var(--secondary-text);
+  border-radius: 100%;
+  background: transparent;
+  padding: 10px;
+  transition: 0.2s ease;
+}
+.TestimonialPicture .controls button:hover {
+  border: 2px solid var(--primary-text);
+  cursor: pointer;
+}
+.TestimonialPicture .controls button:focus {
+  border: 2px solid var(--primary-text);
+}
+#shape1{
+  position: relative;
+  bottom: 468px;
+  right: -395px;
+}
+#shape2{
+  position: relative;
+  top: -90px;
+  right: -10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .Testimonials .left {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Testimonials {
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+  .Testimonials .left {
+    width: 100%;
+  }
+  .Testimonials .left h1 {
+    padding-bottom: 60px;
+  }
+  .TestimonialPicture {
+    width: 70%;
+  }
+  .TestimonialPicture img{
+    width: 100%;
+  }
+  .TestimonialPicture .controls {
+    display: flex;
+    padding: 10px 20px;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: var(--background);
+    border-radius: 15px 0px 0px 0px;
+    position: relative;
+    bottom: 40px;
+    left: 50%;
+    gap: 10px;
+  }
+  #shape1{
+    bottom: -22px;
+    right: -245px;
+  }
+  #shape2{
+    top: -94px;
+    right: 13px;
+  }
+}

@@ -1,0 +1,37 @@
+.Section2 {
+  width: 100%;
+  padding: 100px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  scroll-snap-align: start;
+}
+.right1 {
+  width: 25%;
+}
+@media screen and (max-width: 1024px) {
+  .Section2 .left img {
+    width: 400px;
+  }
+  .Section2{
+    gap: 50px;
+  }
+  .right1{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Section2 {
+    flex-direction: column-reverse;
+  }
+  .right1 {
+    width: 100%;
+  }
+  .Section2 .left {
+    width: 100%;
+  }
+  .Section2 .left img {
+    width: 250px;
+  }
+}

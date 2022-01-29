@@ -1,0 +1,26 @@
+.FeaturedDestinations {
+  width: 100%;
+  padding: 120px 0px;
+  scroll-snap-align: start;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.destinations {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+@media screen and (max-width: 600px) {
+    .destinations{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+

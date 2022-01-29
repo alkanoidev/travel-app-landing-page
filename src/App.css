@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 :root {
   --primary: #fb8f1d;
-  --background: #ffffff;
+  --background: #FFFFFF;
+  --primary-text: #202336;
   --secondary-text: #B8BECD;
   --transition: 0.3s all ease;
 }
@@ -13,16 +14,36 @@
   margin: 0px;
   box-sizing: border-box;
 }
+html{
+  width: 100%;
+}
 body {
   margin: 0;
   background-color: var(--bg);
   width: 100%;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
 #root{
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 .App {
-  width: 90%;
+  width: 100%;
+  padding: 0px 190px;
+  scroll-snap-type: y mandatory;
+  background-color: var(--background);
+}
+@media screen and (max-width: 1024px) {
+  .App{
+    padding: 0px 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .App{
+    padding: 0px 20px;
+  }
 }

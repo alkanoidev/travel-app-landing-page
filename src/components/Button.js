@@ -9,6 +9,7 @@ export default function Button({ outlined, width, text }) {
     justify-content: center;
     border: none;
     outline: none;
+    font-weight: bolder;
     ${outlined
       ? css`
           border: 1px solid var(--primary);
@@ -31,7 +32,7 @@ export default function Button({ outlined, width, text }) {
             color: #ffffff;
           `
         : css`
-            box-shadow: 0px 0px 15px 4px var(--primary);
+            box-shadow: 0px 0px 10px 2px var(--primary);
             cursor: pointer;
           `}
     }

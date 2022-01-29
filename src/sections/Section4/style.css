@@ -1,0 +1,38 @@
+.Section4 {
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    gap: 100px;
+    scroll-snap-align: start;
+}
+.Section4 .left img {
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .Section4 .left img {
+    width: 400px;
+  }
+  .Section4{
+    gap: 50px;
+  }
+  .left{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+    .Section4 {
+      flex-direction: column-reverse;
+    }
+    .right1 {
+      width: 100%;
+    }
+    .Section4 .left {
+      width: 100%;
+    }
+    .Section4 .left img {
+      width: 300px;
+    }
+}
