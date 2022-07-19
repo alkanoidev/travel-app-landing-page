@@ -6,14 +6,17 @@ Mobile Responsive Landing page for tour and travel project. 🌎
 ### ✨ [Demo](https://travel-app-landing-page.netlify.app)
 
 ### 🛠 Tech Stack:
-- Reactjs
-- Styled-Components
-- Framer Motion
-- React-Icons
+
+| Frontend           | 
+| -------------      | 
+| React              | 
+| Styled-Components  | 
+| Framer Motion      | 
+| React-Icons        |
 
 ### Author 👋
 
  **Filip Ivanovic**
 
-* Website: TODO: add portfolio
+* Website: [https://filipivanovic.netlify.app/](https://filipivanovic.netlify.app/)
 * Github: [@alkanoidev](https://github.com/alkanoidev)
