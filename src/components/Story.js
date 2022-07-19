@@ -10,7 +10,6 @@ const Container = styled.div`
     }
   }
   &:hover {
-    transform: scale(120%);
     cursor: pointer;
   }
 `;

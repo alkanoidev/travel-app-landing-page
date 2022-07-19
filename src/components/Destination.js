@@ -11,7 +11,6 @@ const Container = styled.div`
     }
   }
   &:hover {
-    transform: scale(120%);
     cursor: pointer;
   }
   border-radius: 20px;
